@@ -1,13 +1,12 @@
 ---
-date: '2017-12-21'
-title: 'UI Engineer Co-op'
-company: 'Apple'
-location: 'Cupertino, CA'
-range: 'July - December 2017'
-url: 'https://www.apple.com/music/'
+date: '2011-01-01'
+title: 'Executive Assistant Coordinator of Berklee Program'
+company: 'Berklee College of Music'
+location: 'Boston, MA'
+range: 'Sep 2011 - May 2013'
+url: 'https://www.berklee.edu/'
 ---
 
-- Developed and shipped highly interactive web applications for Apple Music using Ember.js
-- Built and shipped the Apple Music Extension within Facebook Messenger leveraging third-party and internal APIs
-- Architected and implemented the front-end of Apple Music's embeddable web player widget, which lets users log in and listen to full songs in the browser
-- Contributed extensively to MusicKit.js, a JavaScript framework that allows developers to add an Apple Music player to their web apps
+- Organized weekly performance sessions
+- Instituted the promotion of each event
+- Generated an environment of inclusivity for students

@@ -269,6 +269,12 @@ const GlobalStyle = createGlobalStyle`
     }
   }
 
+  .green-text {
+    color: #64ffda;
+    display: inline-block;
+    margin: 0;
+  }
+
   button {
     cursor: pointer;
     border: 0;

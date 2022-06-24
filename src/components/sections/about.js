@@ -153,12 +153,27 @@ const About = () => {
               17+ years of being a professional jazz saxophonist and composer found me playing
               everything from the smallest coffee shop to the largest arenas and festivals. I have
               taught music to everyone from elementary school children, to the undergraduate and
-              graduate level as well as working professionals. I love solving problems from not just
-              a technical perspective, but with an emphasis on creativity and diversity of opinion.
-              I have taken the dedication, consistent devotion, and love of practice that I have for
-              music, and applied it to software development. I love watching the hours melt away
-              while working on a project, and, contrary to popular belief, am a software developer
-              who loves to work with others.
+              graduate level as well as working professionals. I love{' '}
+              <p className="green-text">solving problems</p> from not just a technical perspective,
+              but with an emphasis on <p className="green-text">creativity</p> and{' '}
+              <p className="green-text">diversity of opinion</p>. I have taken the{' '}
+              <p className="green-text">dedication</p>,{' '}
+              <p className="green-text">consistent devotion</p>, and{' '}
+              <p className="green-text">love of practice</p> that I have for music, and applied it
+              to software development. I love watching the hours melt away while working on a
+              project, and, contrary to popular belief, am a software developer who loves to work
+              with others.
+            </p>
+
+            <p>
+              I received both my Bachelor and Master in Music from{' '}
+              <a href="https://www.berklee.edu/">Berklee College of Music</a> and during my time
+              there, I did a lot of teaching, performing, and social work all around the world
+              through the{' '}
+              <a href="https://college.berklee.edu/focused/global-jazz">
+                Berklee Global Jazz Institute
+              </a>
+              .{' '}
             </p>
 
             <p>
@@ -169,7 +184,12 @@ const About = () => {
           </div>
 
           <ul className="skills-list">
-            {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
+            {skills &&
+              skills.map((skill, i) => (
+                <li className="green-text" key={i}>
+                  {skill}
+                </li>
+              ))}
           </ul>
         </StyledText>
 
