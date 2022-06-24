@@ -16,7 +16,7 @@ module.exports = {
     },
     {
       name: 'Linkedin',
-      url: 'https://github.com/pmelhus',
+      url: 'https://www.linkedin.com/in/paulmelhus',
     },
   ],
 
