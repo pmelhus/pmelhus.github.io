@@ -270,7 +270,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   .green-text {
-    color: #64ffda;
+    color: #1e90ff;
     display: inline-block;
     margin: 0;
   }

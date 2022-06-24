@@ -154,15 +154,15 @@ const About = () => {
               everything from the smallest coffee shop to the largest arenas and festivals. I have
               taught music to everyone from elementary school children, to the undergraduate and
               graduate level as well as working professionals. I love{' '}
-              <p className="green-text">solving problems</p> from not just a technical perspective,
-              but with an emphasis on <p className="green-text">creativity</p> and{' '}
-              <p className="green-text">diversity of opinion</p>. I have taken the{' '}
-              <p className="green-text">dedication</p>,{' '}
-              <p className="green-text">consistent devotion</p>, and{' '}
-              <p className="green-text">love of practice</p> that I have for music, and applied it
-              to software development. I love watching the hours melt away while working on a
-              project, and, contrary to popular belief, am a software developer who loves to work
-              with others.
+              <span className="green-text">solving problems</span> from not just a technical
+              perspective, but with an emphasis on <span className="green-text">creativity</span>{' '}
+              and <span className="green-text">diversity of opinion</span>. I have taken the{' '}
+              <span className="green-text">dedication</span>,{' '}
+              <span className="green-text">consistent devotion</span>, and{' '}
+              <span className="green-text">love of practice</span> that I have for music, and
+              applied it to software development. I love watching the hours melt away while working
+              on a project, and, contrary to popular belief, am a software developer who loves to
+              work with others.
             </p>
 
             <p>
@@ -174,10 +174,6 @@ const About = () => {
                 Berklee Global Jazz Institute
               </a>
               .{' '}
-            </p>
-
-            <p>
-              I am always open to engaging in conversation, so please do not hesitate to reach out!
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
@@ -197,7 +193,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              src="./me.jpg"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}

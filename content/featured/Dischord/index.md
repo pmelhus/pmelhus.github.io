@@ -1,7 +1,7 @@
 ---
 date: '1'
 title: 'Dischord'
-cover: './dischord-home1.png'
+cover: './dischordscreenshot.png'
 github: 'https://github.com/pmelhus/dischord'
 external: 'https://my-dischord.herokuapp.com/'
 tech:
@@ -12,4 +12,4 @@ tech:
   - Socket.IO
 ---
 
-Dischord is a full stack application intended for musicians and other creatives to network, communicate, and connect. Users can create profiles, servers, and channels. They're able to live message one another on a server given that the other user is a member of that server.
+Dischord is a full stack application intended for musicians and other creatives to network, communicate, and connect. Users can create profiles, servers, and channels to reach other users on the app. It utilizes Socket.IO to simulate a low latency messaging experience where users can create, edit, delete their messages in real time.
