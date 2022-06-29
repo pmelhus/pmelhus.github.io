@@ -4,7 +4,6 @@ title: 'ToneZone'
 cover: './tonezone.png'
 github: 'https://github.com/pmelhus/tone-zone'
 external: 'https://the-tone-zone.herokuapp.com/'
-cta: 'dummy-content'
 tech:
   - React
   - Express
